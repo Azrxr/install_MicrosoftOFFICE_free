@@ -30,6 +30,10 @@
       setup.exe /configure Configuration24.xml
       ```
 
+    Instalasi Office selesai. Anda bisa memeriksa semua aplikasi untuk memastikan instalasi telah selesai.
+
+    Kemudian tutup semua aplikasi dan CMD.
+
 6. **Buka CMD sebagai Admin**
 
 7. **Aktivasi**
