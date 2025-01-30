@@ -47,3 +47,19 @@
       ```
 
 Jika sudah selesai dan berhasil, akan muncul keterangan `Product activation successful`.
+
+## cek Aktivasi Microsoft Office
+1. **silahkan ketikkan atau Copy perintah berikut dan Paste di jendela CMD kemudian tekan Enter.**
+```sh
+cd %ProgramFiles%\Microsoft Office\Office16Copy
+```
+2. **Jika muncul keterangan The system cannot find the path specified, maka ketik atau Copy lagi perintah berikut dan Paste di CMD kemudian Enter.**
+```sh
+cd %ProgramFiles(x86)%\Microsoft Office\Office16Copy
+```
+3. **Setelah itu, silahkan ketikkan atau Copy lagi perintah berikut dan Paste di CMD kemudian tekan Enter.**
+```sh
+cscript ospp.vbs /dstatus
+```
+Pada keterangan yang muncul, silahkan perhatikan baris **License Status**.
+Jika statusnya adalah **Licensed**, artinya Microsoft Office anda sudah aktif.
