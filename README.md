@@ -5,7 +5,7 @@
 1. **Download atau Clone**
     - Ekstrak ke drive C dengan nama `OFFICE`.
 
-2. **Buka Terminal**
+2. **Buka CommandPromp sebagai Administrator**
     - Masuk ke direktori `C:/OFFICE` atau sesuai nama pada langkah 1.
 
 3. **Proses Download**
@@ -34,7 +34,7 @@
 
     Kemudian tutup semua aplikasi dan CMD.
 
-6. **Buka CMD sebagai Admin**
+6. **Buka CommandPromp sebagai Admin**
 
 7. **Aktivasi**
     - **Versi 365 Business:**
@@ -49,7 +49,7 @@
 Jika sudah selesai dan berhasil, akan muncul keterangan `Product activation successful`.
 
 ## cek Aktivasi Microsoft Office
-1. **silahkan ketikkan atau Copy perintah berikut dan Paste di jendela CMD kemudian tekan Enter.**
+1. **silahkan ketikkan atau Copy perintah berikut dan Paste di jendela CommandPromp kemudian tekan Enter.**
 ```sh
 cd %ProgramFiles%\Microsoft Office\Office16Copy
 ```
